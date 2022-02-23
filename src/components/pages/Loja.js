@@ -4,10 +4,10 @@ import Footer from "components/organisms/Footer";
 
 const Loja = ({}) => (
   <>
-    <Section inverse>
+    {/* <Section inverse> */}
         <h1>Loja</h1>
-    </Section>
-    <Footer />
+    {/* </Section>
+    <Footer /> */}
   </>
 );
 
