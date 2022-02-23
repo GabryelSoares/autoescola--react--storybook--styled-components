@@ -1,14 +1,13 @@
 import React from "react";
-import Section from "components/molecules/Section";
-import Footer from "components/organisms/Footer";
+import { useParams } from "react-router-dom";
 
-const Loja = ({}) => (
+const Loja = () => {  
+  const { id } = useParams();
+
+  return (
   <>
-    {/* <Section inverse> */}
-        <h1>Loja</h1>
-    {/* </Section>
-    <Footer /> */}
+    <h1>{'Loja: ' + id}</h1>
   </>
-);
+)};
 
 export default Loja;
